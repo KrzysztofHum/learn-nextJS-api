@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import BookItem from "./BookItem";
+import classes from "../styles/Books.module.css";
 
 const BooksList = () => {
   const [data, setData] = useState();
@@ -14,7 +15,7 @@ const BooksList = () => {
   }, []);
   return (
     <div>
-      <ul>
+      <ul className={classes.listContainer}>
         {data &&
           data.map((item, index) => (
             <BookItem
