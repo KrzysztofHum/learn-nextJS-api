@@ -1,1 +1,8 @@
-[{ "id": "1", "name": "Mindset", "description": "A new Book" }]
+[
+  {
+    "id": "1",
+    "name": "Mindset",
+    "description": "A new Book",
+    "imgUrl": "https://d2j6dbq0eux0bg.cloudfront.net/images/69688632/2911081125.jpg"
+  }
+]

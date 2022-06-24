@@ -22,6 +22,7 @@ const BooksList = () => {
               description={item.description}
               name={item.name}
               id={item.id}
+              imgUrl={item.imgUrl}
               key={index}
             />
           ))}

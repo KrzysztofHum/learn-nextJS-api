@@ -12,10 +12,11 @@ function handler(req, res) {
     const data = getData();
     return res.status(200).json({ message: data });
   } else if (req.method === "POST") {
-    const { name, description } = req.body;
+    const { name, description, imgUrl } = req.body;
     const newBook = {
       name,
       description,
+      imgUrl,
       id: Date.now(),
     };
     const data = getData();
